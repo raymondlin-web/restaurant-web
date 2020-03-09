@@ -3,3 +3,16 @@ body {
   color: #eee;
   font-family: fantasy;
 }
+a[href^="https"] {
+  font-family: fantasy;
+  color: inherit;
+}
+p {
+  color: #FF3222;
+}
+p::first-letter {
+  color: #3932FF;
+}
+* {
+  align-items: center;
+}
